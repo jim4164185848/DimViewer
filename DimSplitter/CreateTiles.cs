@@ -34,6 +34,7 @@ namespace DimSplitter
         int thumb;
         decimal totalworknumber = 0;
         decimal currentworknumber = 0;
+
         public event ProgressChangedEventHandler ProgressChanged;
 
         protected virtual void OnProgressChanged(int progress)
