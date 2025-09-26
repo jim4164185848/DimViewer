@@ -102,7 +102,7 @@ namespace DimSplitter
         /// Current version of DimViewer application
         /// Used in watermarking and file generation
         /// </summary>
-        public const string dimversion = "2.1";
+        public const string dimversion = "3.0";
         
         /// <summary>
         /// Watermark text applied to trial version images

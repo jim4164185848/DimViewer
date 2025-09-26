@@ -1,4 +1,4 @@
-# DimViewer / DimSplitter 2.1
+# DimViewer / DimSplitter 3.0
 
 A Windows desktop application for converting images and PDF files into web-viewable tiled formats. DimViewer processes large images by splitting them into smaller tiles, creating interactive web viewers with zoom and pan functionality.
 
@@ -149,10 +149,12 @@ For issues, questions, or feature requests, please create an issue in the GitHub
 
 ## Version History
 
-### Version 2.1
+### Version 3.0
 - Current stable release
+- Enhanced documentation and code comments
 - Multi-format image support
 - PDF processing capabilities
+- Improved maintainability and code structure
 - Web viewer generation
 - Batch processing
 - Configurable zoom levels

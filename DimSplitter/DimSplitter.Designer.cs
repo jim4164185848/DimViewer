@@ -507,7 +507,7 @@
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DimSplitter";
-            this.Text = "DimViewer 2.1";
+            this.Text = "DimViewer 3.0";
             this.Load += new System.EventHandler(this.DimSplitter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
