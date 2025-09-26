@@ -5,23 +5,27 @@ A Windows desktop application for converting images and PDF files into web-viewa
 ## Features
 
 ### File Processing
+
 - **Multi-format support**: JPG, GIF, BMP, PNG, JPEG image files
 - **PDF support**: Convert PDF pages to images using Ghostscript integration
 - **Batch processing**: Handle multiple files simultaneously
 - **File management**: Add, remove, and reorder files in the processing queue
 
 ### Image Processing
+
 - **Tile generation**: Splits large images into 260x260 pixel tiles
 - **Multiple zoom levels**: Creates 1-5 configurable zoom levels
 - **Resolution control**: Configurable maximum resolution up to 300 DPI
 - **Thumbnail generation**: Creates thumbnail versions for quick preview
 
 ### PDF Processing
+
 - **PDF boundary boxes**: Supports MediaBox, CropBox, and TrimBox
 - **Page extraction**: Converts individual PDF pages to image tiles
 - **High-quality rendering**: Uses Ghostscript for professional PDF conversion
 
 ### Web Output
+
 - **Interactive viewer**: Generates HTML/JavaScript web viewers
 - **Zoom and pan**: Mouse-controlled navigation of large images
 - **Responsive design**: Works across different screen sizes
@@ -37,12 +41,14 @@ A Windows desktop application for converting images and PDF files into web-viewa
 ## Installation
 
 ### For End Users
+
 1. Download the release package
 2. Extract to your desired directory
 3. Run `DimViewer.exe`
 4. The application includes all required dependencies
 
 ### For Developers
+
 1. Clone this repository
 2. Open `DimViewer.sln` in Visual Studio
 3. Build the solution (Debug or Release)
@@ -51,6 +57,7 @@ A Windows desktop application for converting images and PDF files into web-viewa
 ## Usage
 
 ### Basic Workflow
+
 1. **Add Files**: Click "Add Files" to select images or PDF files
 2. **Configure Settings**:
    - Set output directory
@@ -61,6 +68,7 @@ A Windows desktop application for converting images and PDF files into web-viewa
 4. **View Results**: Navigate to the output directory to find your web viewer
 
 ### Configuration Options
+
 - **Output Directory**: Where processed tiles and viewer will be saved
 - **Image Prefix**: Naming convention for generated files
 - **Max Resolution**: Maximum DPI for processed images (10-300)
@@ -70,6 +78,7 @@ A Windows desktop application for converting images and PDF files into web-viewa
 - **PDF Box Type**: Choose between MediaBox, CropBox, or TrimBox
 
 ### File Management
+
 - **Move Up/Down**: Reorder files in the processing queue
 - **Remove**: Delete selected files from the queue
 - **Clear All**: Remove all files from the queue
@@ -78,6 +87,7 @@ A Windows desktop application for converting images and PDF files into web-viewa
 ## Technical Details
 
 ### Architecture
+
 - **Main Form**: `DimSplitter.cs` - Primary user interface and control logic
 - **Tile Creation**: `CreateTiles.cs` - Core image processing and tile generation
 - **PDF Processing**: `GhostscriptSharp.cs` - Ghostscript integration for PDF handling
@@ -85,12 +95,14 @@ A Windows desktop application for converting images and PDF files into web-viewa
 - **Help System**: `Help.cs` - Built-in help and documentation
 
 ### Dependencies
+
 - **Ghostscript**: PDF processing (gsdll32.dll)
 - **iTextSharp**: PDF manipulation library
 - **System.Drawing**: Image processing
 - **Windows Forms**: User interface
 
 ### Output Structure
+
 ```
 OutputDirectory/
 ├── tiles/
@@ -106,6 +118,7 @@ OutputDirectory/
 ## Licensing
 
 This project appears to have a licensing system:
+
 - **Trial Version**: Includes watermarks on processed images
 - **Licensed Version**: Removes watermarks and unlocks full functionality
 - License validation through XML license files
@@ -113,6 +126,7 @@ This project appears to have a licensing system:
 ## Development
 
 ### Building from Source
+
 ```bash
 # Clone the repository
 git clone [repository-url]
@@ -125,11 +139,13 @@ git clone [repository-url]
 ```
 
 ### Project Structure
+
 - `DimSplitter/` - Main application source code
 - `Resources/` - Application resources (images, DLLs, license files)
 - `Properties/` - Assembly information and project properties
 
 ### Key Files
+
 - `DimSplitter.cs` - Main application form and logic
 - `CreateTiles.cs` - Image processing and tile generation
 - `GhostscriptSharp.cs` - PDF processing integration
@@ -150,6 +166,7 @@ For issues, questions, or feature requests, please create an issue in the GitHub
 ## Version History
 
 ### Version 3.0
+
 - Current stable release
 - Enhanced documentation and code comments
 - Multi-format image support
