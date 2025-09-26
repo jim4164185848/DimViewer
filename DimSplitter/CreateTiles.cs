@@ -578,6 +578,3 @@ namespace DimSplitter
         #endregion
     }
 }
-
-    }
-}
